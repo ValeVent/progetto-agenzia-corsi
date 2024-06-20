@@ -1,0 +1,384 @@
+/* REGOLE GENERALI */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: regular;
+    font-size: 24px;
+}
+
+p {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+}
+
+.text-color {
+    color:#141414;
+}
+
+.sfondo-chiaro {
+    background-color: #ffffff;
+}
+
+.sfondo-scuro {
+    background-color: #DFE6E9;
+}
+
+.colore-cta {
+    background-color: #55EFC4;
+}
+
+.secondo-colore-cta {
+    background-color: #FA983A;
+}
+
+
+/* TOP MENU */
+#top-menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 120px 20px 60px;
+}
+
+#top-menu p {
+    flex-basis: 75%;
+}
+
+.social {
+    display: flex;
+}
+
+
+/* MENU-PRIMARY  */
+
+nav.nav-primary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.nav-primary ul{
+    display: flex;
+}
+
+.nav-primary ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    color:#141414;
+}
+
+.nav-primary ul li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+.nav-primary ul li a:hover {
+    color: #FA983A;
+}
+
+
+
+/* CONTENT  */
+
+/* CONTENT che rende le due descrizioni una colonna */
+.contenitore-row {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CONTENT che affianca le due colonne all'aside */
+.contenitore-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* do un'impostazione a colonna a tutto il sito */
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION COVER  */
+#cover{
+    background-image: url(media/pexels-mustang-2179483.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    flex-basis: 75%;
+    height: 300px;
+    align-items: center;
+}
+
+#cover p {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    color: #ffffff;
+}
+
+/* SECTION DESCRIPTION  */
+#description{
+    background-color: #ffffff;
+    flex-basis: 75%;
+    height: 300px;
+    align-items: center;
+    background-color: #ffffff;
+    text-align:left;
+}
+
+#description p {
+    color: #141414;
+    padding: 50px 50px;
+}
+
+
+/* ASIDE */
+aside {
+    flex-basis: 30%;
+}
+
+aside img {
+    width: 100%;
+    height: 600px;
+}
+
+
+/* SECTION CORSI */
+
+#corsi {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 130px;
+    padding: 0 30px;
+    background-color: #DFE6E9;
+    text-align: center;
+    align-items: center;
+}
+
+#corsi .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    border: 1px solid #141414;
+    border-radius: 5px;
+    padding: 50px 40px;
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#corsi .card .img-card {
+    width: 100%; 
+    margin-bottom: 5px;
+}
+
+#corsi .card h2 {
+    margin-bottom: 20px;
+}
+
+
+.box-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-cards .single-box {
+    flex-basis: 50%;
+    padding: 5px;
+}
+
+.single-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.single-box p {
+    width: 100%;
+}
+
+#corsi .card button {
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: #55EFC4;
+    width: 30%;
+    align-self: center;
+    border-radius: 5px;
+}
+
+#corsi .card button:hover {
+    background-color:#FA983A;
+}
+
+#corsi .card button a {
+    text-decoration: none;
+    color: #141414;
+}
+
+
+
+/* SECTION DICONO DI NOI */
+#dicono-di-noi {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+/* SECTION CONTATTACI */
+
+#contattaci {
+    background-color: #DFE6E9;
+    padding: 100px 0 100px 250px;
+}
+
+#contattaci button {
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: #55EFC4;
+    width: 10%;
+    align-self: center;
+    border-radius: 5px;
+}
+
+#contattaci button:hover {
+    background-color:#FA983A;
+}
+
+#contattaci button a {
+    text-decoration: none;
+    color: #141414;
+}
+
+
+/* SECTION EVENTI */
+
+#eventi {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#eventi img {
+    margin-top: 50px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+#eventi p {
+    text-align: center;
+}
+
+/* SECTION SPONSOR */
+
+#sponsor {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* MEGA FOOTER */
+
+#mega-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #DFE6E9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#mega-footer .nav-footer ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    color:#141414;
+}
+
+#mega-footer .nav-footer ul li {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+
+#mega-footer .nav-footer ul li a:hover {
+    color: #FA983A;
+}
+
+
+
+/* FOOTER */
+
+/* allineo il footer al centro, dando margine al top */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+/* dò un font family al paragrafo del footer */
+footer p {
+    font-family: "Oswald", sans-serif;
+}
