@@ -16,9 +16,9 @@ Tecnologie Utilizzate
 
 - JavaScript: Logica interattiva per:
 
- - La gestione del menu hamburger su mobile, che permette di mostrare/nascondere la navigazione.
+  - La gestione del menu hamburger su mobile, che permette di mostrare/nascondere la navigazione.
 
- - Lo slideshow automatico per le sezioni "Dicono di noi" e "Sponsor", che cambia le immagini a intervalli regolari.
+  - Lo slideshow automatico per le sezioni "Dicono di noi" e "Sponsor", che cambia le immagini a intervalli regolari.
 
 - Font Awesome: Utilizzato per l'icona del menu hamburger e altre eventuali icone social.
 
@@ -31,11 +31,11 @@ Funzionalità Principali
 
 - Sezioni Informative:
 
- - Cover e Descrizione ("Chi Siamo"): Presentazione dell'agenzia con un'immagine di sfondo accattivante e testo descrittivo.
+  - Cover e Descrizione ("Chi Siamo"): Presentazione dell'agenzia con un'immagine di sfondo accattivante e testo descrittivo.
 
- - Corsi: Sezione dettagliata che presenta i corsi offerti (gratuiti e a pagamento), suddivisi per categoria con immagini rappresentative.
+  - Corsi: Sezione dettagliata che presenta i corsi offerti (gratuiti e a pagamento), suddivisi per categoria con immagini rappresentative.
 
- - Eventi: Mostra i prossimi eventi organizzati dall'agenzia.
+  - Eventi: Mostra i prossimi eventi organizzati dall'agenzia.
 
 - Slider Automatico: Presenta testimonianze dei clienti e loghi degli sponsor in uno slideshow che avanza autonomamente.
 
