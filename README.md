@@ -1,14 +1,14 @@
-Sito Web Agenzia Corsi
+# Sito Web Agenzia Corsi
 
 Questo progetto è un sito web completo e responsivo per un'agenzia di corsi, progettato per presentare le offerte formative, gli eventi e le informazioni chiave dell'agenzia in modo chiaro e accattivante.
 
 
-Descrizione Approfondita del Progetto
+## Descrizione Approfondita del Progetto
 
 Il sito include diverse sezioni informative per i visitatori, come una panoramica "Chi Siamo", dettagli sui corsi (sia gratuiti che a pagamento), un calendario di eventi e una sezione dedicata ai feedback dei clienti ("Dicono di noi"). L'esperienza utente è arricchita da uno slideshow automatico per testimonianze e sponsor e da un menu di navigazione completamente responsivo, che si trasforma in un menu hamburger per dispositivi mobili.
 
 
-Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
 - HTML5: Struttura semantica dell'intera pagina web, inclusi header, sezioni del contenuto, aside e footer.
 
@@ -23,7 +23,7 @@ Tecnologie Utilizzate
 - Font Awesome: Utilizzato per l'icona del menu hamburger e altre eventuali icone social.
 
 
-Funzionalità Principali
+## Funzionalità Principali
 
 - Header Completo: Include un menu superiore con link social e un'icona "My Account", e una navigazione primaria con logo e collegamenti rapidi alle sezioni principali del sito.
 
@@ -44,17 +44,17 @@ Funzionalità Principali
 - Footer Esteso: Un "mega footer" con link di navigazione aggiuntivi e un footer standard con informazioni di copyright.
 
 
-Come Avviare il Progetto
+## Come Avviare il Progetto
 
 Segui questi semplici passaggi per visualizzare il progetto localmente:
 
 
-Prerequisiti
+### Prerequisiti
 
 Non sono richiesti particolari prerequisiti oltre a un browser web moderno e una connessione internet per caricare Font Awesome e i font esterni.
 
 
-Installazione
+### Installazione
 
 1. Clona il repository (o scarica la cartella del progetto):
 
@@ -67,7 +67,7 @@ Assicurati di sostituire 'agenzia-corsi.git' con il nome esatto del tuo reposito
 cd agenzia-corsi
 
 
-Avvio dell'Applicazione
+### Avvio dell'Applicazione
 
 - Assicurati che tutti i file immagine e video a cui fa riferimento il progetto (media/icons8-linkedin-48.png, media/pexels-mustang-2179483.jpg, ecc.) siano presenti nella cartella media all'interno della directory del progetto.
 
@@ -82,12 +82,12 @@ http-server .
 L'applicazione sarà accessibile all'indirizzo mostrato dal server (es. http://localhost:8080).
 
 
-Stato del Progetto
+## Stato del Progetto
 
 Questo progetto è un sito web completamente funzionale e responsivo, che dimostra competenze nella creazione di layout complessi, interazioni JavaScript e gestione di contenuti multimediali.
 
 
-Contatti
+## Contatti
 
 GitHub: https://github.com/ValeVent
 
