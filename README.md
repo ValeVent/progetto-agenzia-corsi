@@ -10,38 +10,38 @@ Il sito include diverse sezioni informative per i visitatori, come una panoramic
 
 ## Tecnologie Utilizzate
 
-- HTML5: Struttura semantica dell'intera pagina web, inclusi header, sezioni del contenuto, aside e footer.
+- **HTML5**: Struttura semantica dell'intera pagina web, inclusi header, sezioni del contenuto, aside e footer.
 
-- CSS3: Styling personalizzato per layout, colori, tipografia, effetti di hover e l'implementazione del design responsivo, garantendo un'ottima visualizzazione su tutti i dispositivi.
+- **CSS3**: Styling personalizzato per layout, colori, tipografia, effetti di hover e l'implementazione del design responsivo, garantendo un'ottima visualizzazione su tutti i dispositivi.
 
-- JavaScript: Logica interattiva per:
+- **JavaScript**: Logica interattiva per:
 
   - La gestione del menu hamburger su mobile, che permette di mostrare/nascondere la navigazione.
 
   - Lo slideshow automatico per le sezioni "Dicono di noi" e "Sponsor", che cambia le immagini a intervalli regolari.
 
-- Font Awesome: Utilizzato per l'icona del menu hamburger e altre eventuali icone social.
+- **Font Awesome**: Utilizzato per l'icona del menu hamburger e altre eventuali icone social.
 
 
 ## Funzionalità Principali
 
-- Header Completo: Include un menu superiore con link social e un'icona "My Account", e una navigazione primaria con logo e collegamenti rapidi alle sezioni principali del sito.
+- **Header Completo**: Include un menu superiore con link social e un'icona "My Account", e una navigazione primaria con logo e collegamenti rapidi alle sezioni principali del sito.
 
-- Menu Responsivo: Il menu di navigazione si adatta dinamicamente alle dimensioni dello schermo, trasformandosi in un pratico menu hamburger su dispositivi mobili per una migliore usabilità.
+- **Menu Responsivo**: Il menu di navigazione si adatta dinamicamente alle dimensioni dello schermo, trasformandosi in un pratico menu hamburger su dispositivi mobili per una migliore usabilità.
 
-- Sezioni Informative:
+- **Sezioni Informative**:
 
-  - Cover e Descrizione ("Chi Siamo"): Presentazione dell'agenzia con un'immagine di sfondo accattivante e testo descrittivo.
+  - **Cover e Descrizione ("Chi Siamo")**: Presentazione dell'agenzia con un'immagine di sfondo accattivante e testo descrittivo.
 
-  - Corsi: Sezione dettagliata che presenta i corsi offerti (gratuiti e a pagamento), suddivisi per categoria con immagini rappresentative.
+  - **Corsi**: Sezione dettagliata che presenta i corsi offerti (gratuiti e a pagamento), suddivisi per categoria con immagini rappresentative.
 
-  - Eventi: Mostra i prossimi eventi organizzati dall'agenzia.
+  - **Eventi**: Mostra i prossimi eventi organizzati dall'agenzia.
 
-- Slider Automatico: Presenta testimonianze dei clienti e loghi degli sponsor in uno slideshow che avanza autonomamente.
+- **Slider Automatico**: Presenta testimonianze dei clienti e loghi degli sponsor in uno slideshow che avanza autonomamente.
 
-- Call to Action: Sezione "Contattaci" con un pulsante prominente per incoraggiare l'interazione.
+- **Call to Action**: Sezione "Contattaci" con un pulsante prominente per incoraggiare l'interazione.
 
-- Footer Esteso: Un "mega footer" con link di navigazione aggiuntivi e un footer standard con informazioni di copyright.
+- **Footer Esteso**: Un "mega footer" con link di navigazione aggiuntivi e un footer standard con informazioni di copyright.
 
 
 ## Come Avviare il Progetto
@@ -89,8 +89,8 @@ Questo progetto è un sito web completamente funzionale e responsivo, che dimost
 
 ## Contatti
 
-GitHub: https://github.com/ValeVent
+- **GitHub**: https://github.com/ValeVent
 
-LinkedIn: https://www.linkedin.com/in/valentina-venturo
+- **LinkedIn**: https://www.linkedin.com/in/valentina-venturo
 
-Sito Web: http://www.valentinaventuro.it
+- **Sito Web**: http://www.valentinaventuro.it
